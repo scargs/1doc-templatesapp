@@ -1,10 +1,9 @@
-
+import branding_inline as branding
 import streamlit as st
 import json, re
 import pandas as pd
 from datetime import datetime
 
-st.set_page_config(page_title="Gerador de Templates - 1Doc", page_icon="💬", layout="centered")
 
 # ============ Carregar biblioteca ============
 def load_library():
