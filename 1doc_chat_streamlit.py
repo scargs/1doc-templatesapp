@@ -4,8 +4,6 @@ import json, re
 import pandas as pd
 from datetime import datetime
 
-st.set_page_config(page_title="Gerador de Templates – 1Doc",
-                   page_icon="assets/logo_1doc.png", layout="wide")
 # ============ Carregar biblioteca ============
 def load_library():
     for fname in ["1doc_flow_templates_v3.json","1doc_flow_templates_v2.json","1doc_flow_templates.json"]:
