@@ -119,16 +119,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -1248,17 +1238,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -1338,6 +1317,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -1449,110 +1438,6 @@
             }
           ]
         },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
-              ]
-            }
-          ]
-        },
         "Assistencial/Atendimento": {
           "rotinas": [
             {
@@ -1657,210 +1542,6 @@
                 "Autorização",
                 "Envio ao setor",
                 "Entrega de resultados"
-              ]
-            }
-          ]
-        },
-        "Centro Cirúrgico (admin)": {
-          "rotinas": [
-            {
-              "nome": "Checklist de segurança cirúrgica (admin)",
-              "etapas": [
-                "Preparação de documentos",
-                "Conferência de identificações",
-                "Registros de sala",
-                "Assinaturas",
-                "Arquivo"
-              ]
-            },
-            {
-              "nome": "Agenda de salas",
-              "etapas": [
-                "Recebimento de solicitações",
-                "Alocação de horários",
-                "Confirmação de equipe",
-                "Publicação da escala",
-                "Ajustes por urgência"
-              ]
-            },
-            {
-              "nome": "Controle de OPME (admin)",
-              "etapas": [
-                "Solicitação ao fornecedor",
-                "Autorização do convênio",
-                "Entrega e rastreio",
-                "Devolução/consignado",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Materiais esterilizados – ciclo",
-              "etapas": [
-                "Recolhimento",
-                "Limpeza",
-                "Esterilização",
-                "Distribuição",
-                "Rastreabilidade"
-              ]
-            },
-            {
-              "nome": "Termos e consentimentos",
-              "etapas": [
-                "Disponibilização de modelos",
-                "Coletas de assinaturas",
-                "Guarda no prontuário",
-                "Auditoria"
-              ]
-            },
-            {
-              "nome": "Gestão de escalas (enfermagem/CC)",
-              "etapas": [
-                "Coleta de disponibilidade",
-                "Montagem de escala",
-                "Publicação",
-                "Trocas e coberturas",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Indicadores de centro cirúrgico",
-              "etapas": [
-                "Coleta de tempos de sala",
-                "Taxas de ocupação",
-                "Atrasos",
-                "Cancelamentos",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Autorização cirúrgica (convênio)",
-              "etapas": [
-                "Documentos",
-                "Envio para autorização",
-                "Acompanhamento",
-                "Validação",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Implantes e rastreabilidade",
-              "etapas": [
-                "Cadastro de lotes",
-                "Associação a pacientes",
-                "Controle de validade",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Controle de checklists pré-op",
-              "etapas": [
-                "Envio ao paciente",
-                "Coleta de assinaturas",
-                "Validação",
-                "Registro"
-              ]
-            }
-          ]
-        },
-        "Farmácia Hospitalar (admin)": {
-          "rotinas": [
-            {
-              "nome": "Dispensação",
-              "etapas": [
-                "Recebimento de prescrição",
-                "Validação",
-                "Separação",
-                "Entrega/Controle",
-                "Registro de lote/validades",
-                "Auditoria"
-              ]
-            },
-            {
-              "nome": "Controle de psicotrópicos",
-              "etapas": [
-                "Entrada controlada",
-                "Livro de registro",
-                "Disposição segura",
-                "Saída com dupla checagem",
-                "Inventário regular"
-              ]
-            },
-            {
-              "nome": "Compra de medicamentos",
-              "etapas": [
-                "Requisição",
-                "Cotação",
-                "Aprovação",
-                "Pedido",
-                "Recebimento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Fracionamento e rotulagem",
-              "etapas": [
-                "Seleção",
-                "Higienização",
-                "Fracionamento",
-                "Rotulagem",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Temperatura de geladeiras",
-              "etapas": [
-                "Medição",
-                "Registro",
-                "Ações corretivas",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Devolução de medicamentos",
-              "etapas": [
-                "Solicitação",
-                "Avaliação de integridade",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Kit cirúrgico (montagem)",
-              "etapas": [
-                "Checklist por procedimento",
-                "Separação",
-                "Conferência",
-                "Entrega",
-                "Rastreabilidade"
-              ]
-            },
-            {
-              "nome": "Validades/próximo do vencimento",
-              "etapas": [
-                "Identificação",
-                "Plano de escoamento",
-                "Negociação com fornecedor",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Farmacovigilância (admin)",
-              "etapas": [
-                "Registro de eventos",
-                "Notificação",
-                "Acompanhamento",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Dispensação ambulatorial",
-              "etapas": [
-                "Recepção",
-                "Validação da receita",
-                "Entrega",
-                "Orientações",
-                "Registro"
               ]
             }
           ]
@@ -2089,16 +1770,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -3218,17 +2889,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -3308,6 +2968,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -3415,110 +3085,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -3644,16 +3210,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -4773,17 +4329,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -4863,6 +4408,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -4970,110 +4525,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -5306,16 +4757,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -6435,17 +5876,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -6525,6 +5955,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -6632,110 +6072,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -6861,16 +6197,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -7990,17 +7316,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -8080,6 +7395,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -8187,110 +7512,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -8524,16 +7745,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -9653,17 +8864,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -9743,6 +8943,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -9850,110 +9060,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -10188,16 +9294,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -11317,17 +10413,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -11407,6 +10492,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -11518,110 +10613,6 @@
             }
           ]
         },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
-              ]
-            }
-          ]
-        },
         "Locação": {
           "rotinas": [
             {
@@ -11724,109 +10715,6 @@
                 "Aditivo",
                 "Assinatura",
                 "Registro"
-              ]
-            }
-          ]
-        },
-        "Vendas": {
-          "rotinas": [
-            {
-              "nome": "Captação de imóvel para venda",
-              "etapas": [
-                "Prospecção",
-                "Visita técnica",
-                "Avaliação de preço",
-                "Contrato de intermediação",
-                "Cadastro e publicação"
-              ]
-            },
-            {
-              "nome": "Atendimento a leads",
-              "etapas": [
-                "Recepção",
-                "Qualificação",
-                "Agendamento de visita",
-                "Proposta",
-                "Negociação",
-                "Fechamento"
-              ]
-            },
-            {
-              "nome": "Due diligence documental",
-              "etapas": [
-                "Coleta de certidões",
-                "Análise de matrícula",
-                "Pendências",
-                "Regularização",
-                "Aprovação"
-              ]
-            },
-            {
-              "nome": "Contrato de compra e venda",
-              "etapas": [
-                "Minuta",
-                "Assinaturas",
-                "Protocolo em cartório",
-                "Registro de escritura",
-                "Entrega"
-              ]
-            },
-            {
-              "nome": "Comissionamento",
-              "etapas": [
-                "Apuração",
-                "Emissão de RPA/Nota",
-                "Pagamento",
-                "Registro",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Financiamento imobiliário (admin)",
-              "etapas": [
-                "Coleta de docs",
-                "Envio ao banco",
-                "Acompanhamento",
-                "Aprovação",
-                "Assinaturas"
-              ]
-            },
-            {
-              "nome": "Pós-venda",
-              "etapas": [
-                "Pesquisa de satisfação",
-                "Correções/pendências",
-                "Entrega de garantias",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de placas e anúncios",
-              "etapas": [
-                "Solicitação",
-                "Instalação/retirada",
-                "Controle",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Open house",
-              "etapas": [
-                "Planejamento",
-                "Divulgação",
-                "Execução",
-                "Captação de propostas",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Regularização de imóveis",
-              "etapas": [
-                "Levantamento de pendências",
-                "Protocolo",
-                "Acompanhamento",
-                "Deferimento",
-                "Arquivo"
               ]
             }
           ]
@@ -11952,16 +10840,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -13081,17 +11959,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -13171,6 +12038,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -13278,110 +12155,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -13613,16 +12386,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -14742,17 +13505,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -14832,6 +13584,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -14939,110 +13701,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -15168,16 +13826,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -16297,17 +14945,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -16387,6 +15024,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -16494,110 +15141,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -16723,16 +15266,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -17852,17 +16385,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -17942,6 +16464,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -18049,110 +16581,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -18278,16 +16706,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -19407,17 +17825,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -19497,6 +17904,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -19604,110 +18021,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -19833,16 +18146,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -20962,17 +19265,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -21052,6 +19344,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -21159,110 +19461,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
@@ -21388,16 +19586,6 @@
                 "Atualização em sistemas",
                 "Arquivo"
               ]
-            },
-            {
-              "nome": "Laudos e medicina ocupacional",
-              "etapas": [
-                "Levantamento de periódicos",
-                "Agendamento de exames",
-                "Emissão de ASO",
-                "Controle de vencimentos",
-                "Relatórios"
-              ]
             }
           ]
         },
@@ -22517,17 +20705,6 @@
               ]
             },
             {
-              "nome": "PPRA/LTCAT/PCMSO (gestão docs)",
-              "etapas": [
-                "Levantamento de riscos",
-                "Contratação de laudos",
-                "Execução",
-                "Recebimento",
-                "Divulgação",
-                "Arquivo"
-              ]
-            },
-            {
               "nome": "Treinamentos obrigatórios",
               "etapas": [
                 "Calendário",
@@ -22607,6 +20784,16 @@
                 "Treinamentos",
                 "Simulados",
                 "Revisão"
+              ]
+            },
+            {
+              "nome": "Mapeamento de riscos",
+              "etapas": [
+                "Identificação",
+                "Avaliação",
+                "Classificação",
+                "Plano de ação",
+                "Monitoramento"
               ]
             }
           ]
@@ -22714,110 +20901,6 @@
                 "Confirmação",
                 "Offboarding",
                 "Pesquisa de saída"
-              ]
-            }
-          ]
-        },
-        "Almoxarifado": {
-          "rotinas": [
-            {
-              "nome": "Entrada de materiais",
-              "etapas": [
-                "Recebimento",
-                "Conferência",
-                "Etiquetação",
-                "Endereçamento",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Saída de materiais",
-              "etapas": [
-                "Requisição",
-                "Separação",
-                "Entrega",
-                "Baixa",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Inventário rotativo",
-              "etapas": [
-                "Planejamento",
-                "Contagem",
-                "Reconciliação",
-                "Ajustes",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Inventário anual",
-              "etapas": [
-                "Planejamento",
-                "Execução",
-                "Auditoria",
-                "Ajustes finais",
-                "Relatório à diretoria"
-              ]
-            },
-            {
-              "nome": "Controle de validade/lotes",
-              "etapas": [
-                "Parametrização",
-                "Sinalização de vencimentos",
-                "Ações de troca",
-                "Relatórios"
-              ]
-            },
-            {
-              "nome": "Kits e montagem",
-              "etapas": [
-                "Solicitação",
-                "Separação",
-                "Montagem",
-                "Conferência",
-                "Entrega",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Gestão de endereços",
-              "etapas": [
-                "Criação",
-                "Manutenção",
-                "Auditoria",
-                "Relatórios",
-                "Padronização"
-              ]
-            },
-            {
-              "nome": "Devoluções internas",
-              "etapas": [
-                "Solicitação",
-                "Análise de estado",
-                "Retorno ao estoque",
-                "Ajustes",
-                "Registro"
-              ]
-            },
-            {
-              "nome": "Avarias e perdas",
-              "etapas": [
-                "Registro",
-                "Apuração",
-                "Tratativas",
-                "Baixa",
-                "Relatório"
-              ]
-            },
-            {
-              "nome": "Expedição interna",
-              "etapas": [
-                "Programação",
-                "Separação",
-                "Conferência",
-                "Despacho interno",
-                "Confirmação de recebimento"
               ]
             }
           ]
